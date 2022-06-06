@@ -10,34 +10,36 @@
 <body>
     <h1>Formulario de registro</h1>
     <form class="formulario"></form> 
-    <label>Nombre:</label>
+    <label for="Nombre"> Nombre</label>
 
     <input type="text"id='nombre' name="nombre">
-    <P></P>
+    <p></p>
 </LI>
-<P></P>
-    <label>Apellido:</label>
+<p></p>
+    <label for="Apellido">Apellido:</label>
     <input type="text"id='apellido' name="apellido">
 
     <form>
-         <P></P>
-    <label>Sexo?</label>
-    <input type="radio" id="hombre" name="genero" value="hombre" >
-    <label>hombre</label>
+         <p></p>
+    <label for="Sexo">Sexo?</label>
+    <input type="radio" id="hombtr" name="genero" value="hombre" >
+    <label for="hombre">Hombre</label>
     <input type="radio" id="mujer" name="genero" value="mujer">
-    <label>mujer</label>
+    <label for="mujer">Mujer</label>
 
     </form>
     <P></P>
-    <label>Correo:</label>
-    <input type="email"id='email' name="email" />
-    <P></P>
+    <label for="Correo">Correo:</label>
+    <input type="email"id='correo' name="email" />
+    <p></p>
 
-<label><input type="checkbox" id="cbox1" value="primero">Deseo recibir informacion sobre novedades y ofertas</label><br>
+    <input type="checkbox" id="cbox1" value="primero">
+    <label for="cbox1">Deseo recibir informacion sobre novedades y ofertas</label>
 <p></p>
-<input type="checkbox" id="cbox2" value="segundo"><label for="cbox2">Declaro haber leido y aceptar las condiciones generales del programa y la normativa sobre proteccion de datos</label>
+   <input type="checkbox" id="cbox2" value="segundo">
+   <label for="cbox2">Declaro haber leido y aceptar las condiciones generales del programa y la normativa sobre proteccion de datos</label>
    <p></p>
-<button>ENVIAR</button>
+<input type="submit" value="Enviar">
 </form>
 </body>
 </html>
